@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="form">
+        <h2 style="color: black;">Registration Form</h2>
+        <label for="name">
+            Name
+            <input type="text"  id="name">
+        </label>
+        <label for="email">
+            Email
+            <input type="email"  id="email">
+        </label>
+        <label for="dept">
+            Department
+            <select id="dept">
+                <option value="">Select Department</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="ECE">CIVIL</option>
+                <option value="MECH">MECH</option>
+            </select>
+        </label>
+        <label for="phNo">
+            Phone Number
+            <input type="text" id="phNo" >
+        </label>
+        <label for="DOB">
+            DOB
+            <input type="date" id="DOB" >
+        </label>
+        <label for="password">
+            Password
+            <input type="password" id="password">
+        </label>
+        <label for="password">
+            Confirm Password
+            <input type="password"  id="cnfpassword">
+        </label>
+        <div id="btnCont">
+            <button type="submit" id="subBtn" onclick="handleSubmit()">Submit</button>
+            <button type="reset" id="resBtn" onclick="handleReset()">Reset</button>
+        </div>
+        <div id="msg"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
