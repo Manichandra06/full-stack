@@ -4,10 +4,10 @@
     "express": "^5.2.1",
     "mysql2": "^3.17.1"
   },
-  "name": "task2",
+  "name": "task3",
   "version": "1.0.0",
   "description": "",
-  "main": "dashboard.js",
+  "main": "login.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
